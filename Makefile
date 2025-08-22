@@ -3,7 +3,7 @@ CC = gcc
 COMMON_CFLAGS = -Wall -Wextra -std=c99 -pedantic
 CFLAGS += $(shell pkg-config --cflags sdl3) $(COMMON_CFLAGS) -MMD -MP
 COMMON_LIBS = -lm
-LIBS = $(shell pkg-config --libs sdl3) $(COMMON_LIBS) -L/usr/lib -lSDL3_image -L/usr/lib -lSDL3_ttf
+LIBS = $(shell pkg-config --libs sdl3) $(COMMON_LIBS) -L/usr/lib -lSDL3_ttf
 
 SRC = main.c snake.c food.c obstacle.c
 BUILD_DIR = build
