@@ -1,6 +1,6 @@
 ## Snake game SDL
 
-![preview](./preview/snake_preview.mp4)
+https://github.com/user-attachments/assets/3f53733a-056d-43b5-a31b-dff83d8765d8
 
 This is a classic Snake game written in C using SDL, but it’s more challenging than the traditional version.
 
